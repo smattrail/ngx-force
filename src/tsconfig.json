@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
+	 "outDir": "./dist/",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
     "removeComments": true,
     "sourceMap": true,
-    "outDir": "../lib",
-    "declaration": true
-  }
+    "declaration": true,
+        "noImplicitAny": false
+	}
 }
+
