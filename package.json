@@ -1,7 +1,7 @@
 {
   "name": "ngx-force",
   "version": "0.0.1",
-  "description": "Library to use Salesforce REST API in Angular 2+ and Ionic 2",
+  "description": "Library to use Salesforce REST API in Angular 2+",
   "main": "ngx-force.js",
   "scripts": {
     "watch": "tsc -p src -w",
@@ -13,28 +13,28 @@
   },
   "keywords": [
     "Angular",
-    "Ionic",
     "2",
     "Salesforce",
     "Library"
   ],
-  "author": "javiespinar@gmail.com",
+  "author": "dirk@smarttrail.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JaviEspinar/ngx-force/issues"
+    "url": "https://github.com/smattrail/ngx-force/issues"
   },
-  "homepage": "https://github.com/JaviEspinar/ngx-force#readme",
+  "homepage": "https://github.com/smattrail/ngx-force#readme",
   "devDependencies": {
-    "typescript": "2.2.1"
+    "angular-ide": "^0.9.38",
+    "typescript": "2.6.2"
   },
   "dependencies": {
-    "@angular/common": "4.1.0",
-    "@angular/compiler": "4.1.0",
-    "@angular/core": "4.1.0",
-    "@angular/http": "4.1.0",
-    "@angular/platform-browser": "4.1.0",
-    "@angular/platform-browser-dynamic": "4.1.0",
-    "rxjs": "5.5.5",
-    "zone.js":"0.8.10"
+    "@angular/common": "5.1.2",
+    "@angular/compiler": "5.1.2",
+    "@angular/core": "5.1.2",
+    "@angular/platform-browser": "5.1.2",
+    "@angular/platform-browser-dynamic": "5.1.2",
+    "npm": "^5.6.0",
+    "rxjs": "5.5.6",
+    "zone.js": "0.8.19"
   }
 }
